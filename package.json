@@ -2,7 +2,6 @@
   "name": "playwrighttypescript",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,5 +9,12 @@
   "devDependencies": {
     "@playwright/test": "^1.51.1",
     "@types/node": "^22.13.10"
-  }
+  },
+  "dependencies": {
+    "browserstack-local": "^1.5.6",
+    "browserstack-node-sdk": "^1.34.47"
+  },
+  "scripts":{"sample-test":"npx browserstack-node-sdk playwright test --config=./playwright.config.ts"
+},
+"directories": {"test":"tests"}
 }
