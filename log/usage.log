@@ -1,0 +1,230 @@
+2025-03-27 13:35:55 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 13:35:55 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 13:35:55 - [31merror[39m: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: bstack-demo
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: BrowserStack Sample
+2025-03-27 13:35:55 - [32minfo[39m: SDK run started with id: 61f0f850-d54d-4116-8323-b0b6e0875149
+2025-03-27 13:35:55 - [31merror[39m: Error: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: bstack-demo
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: BrowserStack Sample
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 13:45:24 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 13:45:24 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 13:45:24 - [31merror[39m: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: bstack-demo
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: BrowserStack Sample
+2025-03-27 13:45:24 - [32minfo[39m: SDK run started with id: 23e4ed35-082a-4443-a1ce-dedb0d03e919
+2025-03-27 13:45:24 - [31merror[39m: Error: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: bstack-demo
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: BrowserStack Sample
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 13:55:43 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 13:55:43 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 13:55:43 - [31merror[39m: duplicated mapping key (67:1)
+
+ 64 | # ============================= ...
+ 65 | # Set browserStackLocal to true ...
+ 66 | # Learn more about how BrowserS ...
+ 67 | browserstackLocal: true # <bool ...
+------^
+ 68 | 
+ 69 | # Options to be passed to Brows ...
+2025-03-27 13:55:43 - [32minfo[39m: SDK run started with id: 8c8fd51e-8732-4d26-baf2-793e90091ad9
+2025-03-27 13:55:43 - [31merror[39m: Error: duplicated mapping key (67:1)
+
+ 64 | # ============================= ...
+ 65 | # Set browserStackLocal to true ...
+ 66 | # Learn more about how BrowserS ...
+ 67 | browserstackLocal: true # <bool ...
+------^
+ 68 | 
+ 69 | # Options to be passed to Brows ...
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 14:12:41 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 14:12:41 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 14:12:41 - [31merror[39m: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: playwrighttypescript
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: playwrighttypescript
+2025-03-27 14:12:41 - [32minfo[39m: SDK run started with id: 34a949d2-5cf5-4604-baa0-65a239deaf27
+2025-03-27 14:12:41 - [31merror[39m: Error: duplicated mapping key (45:1)
+
+ 42 |     browserName: Chromium
+ 43 |     deviceOrientation: portrait
+ 44 | browserstackLocal: true
+ 45 | buildName: playwrighttypescript
+------^
+ 46 | buildIdentifier: ${BUILD_NUMBER}
+ 47 | projectName: playwrighttypescript
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 14:13:54 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 14:13:54 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 14:13:54 - [31merror[39m: duplicated mapping key (70:1)
+
+ 67 | # ============================= ...
+ 68 | # Set browserStackLocal to true ...
+ 69 | # Learn more about how BrowserS ...
+ 70 | browserstackLocal: true # <bool ...
+------^
+ 71 | 
+ 72 | # Options to be passed to Brows ...
+2025-03-27 14:13:54 - [32minfo[39m: SDK run started with id: d4fb6963-1db5-4d6e-a786-4f088461c638
+2025-03-27 14:13:54 - [31merror[39m: Error: duplicated mapping key (70:1)
+
+ 67 | # ============================= ...
+ 68 | # Set browserStackLocal to true ...
+ 69 | # Learn more about how BrowserS ...
+ 70 | browserstackLocal: true # <bool ...
+------^
+ 71 | 
+ 72 | # Options to be passed to Brows ...
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 14:14:24 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 14:14:24 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 14:14:24 - [31merror[39m: duplicated mapping key (70:1)
+
+ 67 | # ============================= ...
+ 68 | # Set browserStackLocal to true ...
+ 69 | # Learn more about how BrowserS ...
+ 70 | browserstackLocal: true # <bool ...
+------^
+ 71 | 
+ 72 | # Options to be passed to Brows ...
+2025-03-27 14:14:24 - [32minfo[39m: SDK run started with id: 3b7b8e1f-f1d0-427f-8074-161fb8538b28
+2025-03-27 14:14:24 - [31merror[39m: Error: duplicated mapping key (70:1)
+
+ 67 | # ============================= ...
+ 68 | # Set browserStackLocal to true ...
+ 69 | # Learn more about how BrowserS ...
+ 70 | browserstackLocal: true # <bool ...
+------^
+ 71 | 
+ 72 | # Options to be passed to Brows ...
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 14:14:56 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 14:14:56 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 14:14:56 - [31merror[39m: duplicated mapping key (81:1)
+
+ 78 | # ===================
+ 79 | # Debugging features
+ 80 | # ===================
+ 81 | debug: false # <boolean> # Set  ...
+------^
+ 82 | networkLogs: false # <boolean>  ...
+ 83 | #consoleLogs: errors # <string> ...
+2025-03-27 14:14:56 - [32minfo[39m: SDK run started with id: 69632d3d-23d0-44db-abe4-0c16114fe687
+2025-03-27 14:14:56 - [31merror[39m: Error: duplicated mapping key (81:1)
+
+ 78 | # ===================
+ 79 | # Debugging features
+ 80 | # ===================
+ 81 | debug: false # <boolean> # Set  ...
+------^
+ 82 | networkLogs: false # <boolean>  ...
+ 83 | #consoleLogs: errors # <string> ...
+    at new BrowserStackSetup (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\helpers\BrowserStackSetup.js:1:12951)
+    at run (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:7253)
+    at Object.wemFF (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1388)
+    at captureError (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:1552)
+    at Object.tunsN (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9229)
+    at C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js:2:9450
+    at _.applyBuilderUpdateUsageAndParse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7435)
+    at _.runCommand (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:7078)
+    at [runYargsParserAndExecuteCommands] (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:58539)
+    at te.parse (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\yargs\build\index.cjs:1:40478)
+2025-03-27 14:15:28 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-03-27 14:15:28 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-03-27 14:15:28 - [32minfo[39m: SDK run started with id: 84245450-8fcd-4fd8-8cd6-80734d868a21
+2025-03-27 14:15:28 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-03-27 14:15:33 - [32minfo[39m: Local binary started successfully
+2025-03-27 14:15:35 - [32minfo[39m: Testhub started with id: oh0xc6mluqmoudjlsqsgutml1jrk3pbo50h8witl
+2025-03-27 14:18:57 - [32minfo[39m: Shutdown triggered by SIGINT
+2025-03-27 14:20:50 - [32minfo[39m: Visit https://observability.browserstack.com/builds/oh0xc6mluqmoudjlsqsgutml1jrk3pbo50h8witl to view build report, insights, and many more debugging information all at one place!
+
+2025-03-27 14:20:50 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/4742b289b850ecdbbe00ce7f684aa7a837ef0c15
+2025-03-27 14:20:51 - [32minfo[39m: SDK run ended for id: 84245450-8fcd-4fd8-8cd6-80734d868a21, testhub id: oh0xc6mluqmoudjlsqsgutml1jrk3pbo50h8witl
+2025-03-27 14:20:54 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
+2025-03-27 14:20:58 - [32minfo[39m: Local binary stopped
