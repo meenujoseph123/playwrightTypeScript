@@ -19,7 +19,7 @@
         <!-- QMetry Integration - Use QMetry's SDK or API client -->
         <dependency>
             <groupId>com.qmetry</groupId>
-            <artifactId>qmetry-java-api-client</artifactId>
+            <artifactId>qmetry-playwright-api-client</artifactId>
             <version>1.0.0</version>
         </dependency>
 
