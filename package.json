@@ -15,7 +15,7 @@
     "browserstack-node-sdk": "^1.34.47"
   },
   "scripts":{"sample-test":"npx browserstack-node-sdk playwright test --config=./playwright.config.ts",
-  "sample-test1":"npx browserstack-node-sdk playwright test --config=./playwright.config.ts"
+  "smoketest":"npx browserstack-node-sdk playwright test --config=./playwright.config.ts"
 },
 "directories": {"test":"tests"}
 }
