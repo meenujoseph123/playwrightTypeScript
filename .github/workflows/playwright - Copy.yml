@@ -18,14 +18,12 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
-    - name: Run Playwright tests
       run: npx playwright test --reporter=junit --output=./test-results
     - name: Upload test results to GitHub Actions
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: playwright-test-results
-        path: ./test-results/test-results.xml
+          name: playwright-test-results
+          path: ./test-results/test-results.xml
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
