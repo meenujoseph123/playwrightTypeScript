@@ -265,3 +265,16 @@
 2025-03-28 15:21:46 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
 2025-03-28 15:21:52 - [32minfo[39m: Local binary started successfully
 2025-03-28 15:21:55 - [32minfo[39m: Testhub started with id: ynswxcy47f1nw0acofcgydaa2ejh3endrpvvdeu4
+2025-04-02 12:24:32 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-04-02 12:24:32 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-04-02 12:24:32 - [32minfo[39m: SDK run started with id: f539baf1-8b9c-4199-af7c-89f539f788a2
+2025-04-02 12:24:32 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-02 12:24:37 - [32minfo[39m: Local binary started successfully
+2025-04-02 12:24:40 - [32minfo[39m: Testhub started with id: p7po1dynik8ti0mztt02gnnwug1j2dfkhf2y1891
+2025-04-02 12:34:04 - [32minfo[39m: Shutdown triggered by SIGINT
+2025-04-02 12:34:22 - [32minfo[39m: Visit https://observability.browserstack.com/builds/p7po1dynik8ti0mztt02gnnwug1j2dfkhf2y1891 to view build report, insights, and many more debugging information all at one place!
+
+2025-04-02 12:34:23 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/ac58451825707b743532fe8f8c4312aa4cf47582
+2025-04-02 12:34:23 - [32minfo[39m: SDK run ended for id: f539baf1-8b9c-4199-af7c-89f539f788a2, testhub id: p7po1dynik8ti0mztt02gnnwug1j2dfkhf2y1891
+2025-04-02 12:34:27 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
+2025-04-02 12:34:30 - [32minfo[39m: Local binary stopped
