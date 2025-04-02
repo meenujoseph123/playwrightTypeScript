@@ -25,11 +25,11 @@
 
         <!-- TestNG for test execution and reporting -->
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.4.0</version>
-            <scope>test</scope>
-        </dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.4.0</version> <!-- Use the latest version -->
+        <scope>test</scope>
+    </dependency>
 
         <!-- JSON parsing library for API responses (e.g., sending results to QMetry API) -->
         <dependency>

@@ -1,0 +1,33 @@
+userName: meenu_64LEmY
+accessKey: 7SpPTkRyGcjxRUznbjzs
+framework: playwrighttypescript
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+browserstackLocal: true
+buildName: playwrighttypescript
+buildIdentifier: '2'
+projectName: playwrighttypescript
+debug: true
+networkLogs: true
+consoleLogs: info
+parallelsPerPlatform: 1
+source: testng:sample-master:v1.1
+testObservability: true
+testContextOptions:
+  skipSessionStatus: false
+  skipSessionName: false
+browserStackLocalOptions:
+  localIdentifier: 28_Mar_1521_MEENUJOSEPH_c5og
+  skipBinaryInitialisation: false
+proxySettings: {}

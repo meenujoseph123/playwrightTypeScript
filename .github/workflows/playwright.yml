@@ -7,7 +7,7 @@ on:
         type: choice
         description: Select the environment
         options:
-        - https://qa.h-dnet.com/eventserv/dealereventadmin/events
+        - https://qa.h-dnet.com/eventserv/dealereventadmin/events #application url
                  
       OperatingSystem:
         type: choice
@@ -101,10 +101,10 @@ jobs:
           -F "password=${{ secrets.QMETRY_PASSWORD }}" \
           -F "testRunId=${{ secrets.QMETRY_TEST_RUN_ID }}"
       env:
-        QMETRY_API_TOKEN: ${{ secrets.QMETRY_API_TOKEN }}
+        QMETRY_API_TOKEN: "e2952cd753f065ea879721aedbf6fdf635c07057d9d38f40bca70ae9b83343f6f698facfa79a933cfcad6673a48e154b671c76816bb8e2b1a9f64ef122cbc7cf771d8ed9382e1cc2c2b252827ca5e60d" # frm mtry ${{ secrets.QMETRY_API_TOKEN }}
         QMETRY_USERNAME: ${{ secrets.QMETRY_USERNAME }}
         QMETRY_PASSWORD: ${{ secrets.QMETRY_PASSWORD }}
-        QMETRY_TEST_RUN_ID: ${{ secrets.QMETRY_TEST_RUN_ID }}
+        QMETRY_TEST_RUN_ID: "afb04ec7-9c5f-491d-9638-1d700c8a2c42" # ${{ secrets.QMETRY_TEST_RUN_ID }}
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
