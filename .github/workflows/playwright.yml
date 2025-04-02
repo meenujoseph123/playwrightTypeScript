@@ -95,7 +95,7 @@ jobs:
     - name: Upload test results to QMetry
       run: |
         curl -X POST "https://your-qmetry-instance/api/v1/upload" \
-          -H "Authorization: Bearer ${{ secrets.QMETRY_API_TOKEN}}" \
+          -H "Authorization: Bearer e2952cd753f065ea879721aedbf6fdf635c07057d9d38f40bca70ae9b83343f6f698facfa79a933cfcad6673a48e154b671c76816bb8e2b1a9f64ef122cbc7cf771d8ed9382e1cc2c2b252827ca5e60d" \
           -F "testResults=@target/surefire-reports/testng-results.xml" \
           -F "username=${{ secrets.QMETRY_USERNAME }}" \
           -F "password=${{ secrets.QMETRY_PASSWORD }}" \
