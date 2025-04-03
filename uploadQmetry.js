@@ -10,11 +10,12 @@ const xmlFilePath = './test-results/test-results.xml';
 const xmlData = fs.readFileSync(xmlFilePath, 'utf8');
 // Define the headers for the request
 const headers = {
-  'Content-Type': 'application/xml',
+  'Content-Type': 'application/json',
   'Authorization': `Bearer ${qmetryApiKey}`
 };
 // Function to upload the test results to QMetry
 async function uploadResultsToQMetry() {
+  console.log('Test results xml:'+xmlData);
   try {
     const response = await axios.post(qmetryAPIEndpoint, {
       projectId: '10000',
