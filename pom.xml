@@ -25,11 +25,11 @@
 
         <!-- TestNG for test execution and reporting -->
         <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.4.0</version> <!-- Use the latest version -->
-        <scope>test</scope>
-    </dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version> <!-- Use the latest version -->
+            <scope>test</scope>
+        </dependency>
 
         <!-- JSON parsing library for API responses (e.g., sending results to QMetry API) -->
         <dependency>
@@ -37,17 +37,44 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.12.3</version>
         </dependency>
-
     </dependencies>
-
     <build>
         <plugins>
             <!-- Maven Surefire Plugin for running tests -->
-            <plugin>
+          <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
-            </plugin>
+          </plugin>
+          <plugin>
+             <groupId>org.apache.maven.plugins</groupId>
+             <artifactId>maven-surefire-plugin</artifactId>
+             <version>2.22.0</version>
+          </plugin>
+          <plugin>
+             <groupId>com.qmetry</groupId>
+             <artifactId>automation</artifactId>
+             <version>2.0.12</version>
+             <executions>
+                <execution>
+                   <phase>test</phase>
+                   <goals>
+                      <goal>JUnitFileUpload</goal>
+                   </goals>
+                </execution>
+             </executions>
+          </plugin>
         </plugins>
     </build>
+    <pluginRepositories>
+       <pluginRepository>
+          <id>qmetrytestmanager-mvn-repo</id>
+          <name>QMetry Test Manager Maven Repository</name>
+          <url>https://raw.github.com/qmetry/qtm4j-maven-uploader/mvn-repo/</url>
+          <releases>
+             <enabled>true</enabled>
+             <updatePolicy>always</updatePolicy>
+          </releases>
+       </pluginRepository>
+    </pluginRepositories>
 </project>
