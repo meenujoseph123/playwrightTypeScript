@@ -77,4 +77,10 @@
           </releases>
        </pluginRepository>
     </pluginRepositories>
+    <repositories>
+    <repository>
+        <id>qmetry-repo</id>
+        <url>https://<qmetry-repository-url>/maven</url>
+    </repository>
+</repositories>
 </project>
