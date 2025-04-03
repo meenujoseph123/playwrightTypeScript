@@ -6,12 +6,12 @@ const qmetryAPIEndpoint = 'https://qtmcloud.qmetry.com/rest/api/automation/impor
 const qmetryApiKey = '92255fc662d8ef87bfbd390b1b4ca5526b83801a24396c5b68740a380ad190ac1a64ff92d409f7b89b56921f6cf92cce426410ed6a489517783e0308126902a8f5e735fbbfea8f4531b43882e084aa55';
 const qmetryProjectId = '10000';
 // Read the generated JUnit XML results file
-const xmlFilePath = 'test-results.json';
+const xmlFilePath = 'test-results.xml';
 const xmlData = fs.readFileSync(xmlFilePath, 'utf8');
-console.log('Test results xml:'+xmlData);
+//console.log('Test results xml:'+xmlData);
 // Define the headers for the request
 const headers = {
-  'Content-Type': 'application/json',
+  'Content-Type': 'application/xml',
   'Authorization': `Bearer ${qmetryApiKey}`
   //'Format' :''
 };
