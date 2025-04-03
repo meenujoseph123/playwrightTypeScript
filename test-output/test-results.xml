@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Playwright Tests" tests="3" failures="1" errors="0" timestamp="2025-04-02T13:30:00" time="0.365">
+    <testcase classname="PlaywrightTests" name="Open Home Page" time="0.120"/>
+    <testcase classname="PlaywrightTests" name="Login Functionality" time="0.150">
+        <failure message="Invalid credentials entered" type="AssertionError">AssertionError: Invalid credentials entered</failure>
+    </testcase>
+    <testcase classname="PlaywrightTests" name="Search Functionality" time="0.095"/>
+</testsuite>
