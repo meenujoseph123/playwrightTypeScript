@@ -1,113 +1,35 @@
 name: Playwright Tests
-
 on:
-  workflow_dispatch:
-   inputs:
-      choice:
-        type: choice
-        description: Select the environment
-        options:
-        - https://qa.h-dnet.com/eventserv/dealereventadmin/events #application url
-                 
-      OperatingSystem:
-        type: choice
-        description: select OS
-        options:
-        - Windows
-        - 'OS X'
-        
-      OperatingSystemVersion:
-        type: choice
-        description: Select OS Version
-        options:
-        - '10'
-        - Monterey     
-        
-      boolean:
-        type: choice
-        description: select browser
-        options:
-        - Chrome
-        - Firefox
-        - Safari
-
-      name:
-       type: choice
-       description: Select Test case
-       options:
-        - All
-        - example.spec.ts
-        - test-1.spec.ts
-
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
 jobs:
-  build:
-    if: ${{ inputs.name == 'All' }}
+  test:
+    timeout-minutes: 60
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: '20'
-      
+        node-version: lts/*
     - name: Install dependencies
-      run: npm install
-        
+      run: npm ci
+    - name: Install Playwright Browsers
+      run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test --project=EventAdmin --retries=2
-  
-  build2:
-    if: ${{ inputs.name != 'All' }}
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v2
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+      run: npx playwright test --reporter=junit --output=./test-results
+    - name: Upload test results to GitHub Actions
+      uses: actions/upload-artifact@v4
       with:
-        node-version: '20'
-      
-    - name: Install dependencies
-      run: npm install
-        
-    - name: Run Playwright tests
-      run: npx playwright test ${{ inputs.name }} --project=EventAdmin
-    # Run Playwright tests
-    #- name: Run Playwright tests
-    # run: npx playwright test
-     
-    # Run Maven build tasks
-    # Cache Maven dependencies to speed up builds
-    - name: Cache Maven dependencies
-      uses: actions/cache@v2
-      with:
-        path: ~/.m2/repository
-        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-        restore-keys: |
-          ${{ runner.os }}-maven-
-
-    # Run Maven tests
-    - name: Run tests with Maven
-      run: mvn clean test
-
-    # Upload test results to QMetry
-    - name: Upload test results to QMetry
-      run: |
-        curl -X POST "https://your-qmetry-instance/api/v1/upload" \
-          -H "Authorization: Bearer e2952cd753f065ea879721aedbf6fdf635c07057d9d38f40bca70ae9b83343f6f698facfa79a933cfcad6673a48e154b671c76816bb8e2b1a9f64ef122cbc7cf771d8ed9382e1cc2c2b252827ca5e60d" \
-          -F "testResults=@target/surefire-reports/testng-results.xml" \
-          -F "username=${{ secrets.QMETRY_USERNAME }}" \
-          -F "password=${{ secrets.QMETRY_PASSWORD }}" \
-          -F "testRunId=${{ secrets.QMETRY_TEST_RUN_ID }}"
-      env:
-        QMETRY_API_TOKEN: "e2952cd753f065ea879721aedbf6fdf635c07057d9d38f40bca70ae9b83343f6f698facfa79a933cfcad6673a48e154b671c76816bb8e2b1a9f64ef122cbc7cf771d8ed9382e1cc2c2b252827ca5e60d" # frm mtry ${{ secrets.QMETRY_API_TOKEN }}
-        QMETRY_USERNAME: ${{ secrets.QMETRY_USERNAME }}
-        QMETRY_PASSWORD: ${{ secrets.QMETRY_PASSWORD }}
-        QMETRY_TEST_RUN_ID: "afb04ec7-9c5f-491d-9638-1d700c8a2c42" # ${{ secrets.QMETRY_TEST_RUN_ID }}
+          name: playwright-test-results
+          path: ./test-output/test-results.xml
+          overwrite: true
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
-        name: playwright-report
-        path: playwright-report/
+        name: test-results
+        path: test-output/
+        overwrite: true
         retention-days: 30
+    
