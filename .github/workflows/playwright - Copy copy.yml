@@ -40,20 +40,7 @@ on:
         - EventsDealerAdminTest.spec.ts
         - EventsAddImageValidation.spec.ts
         - VenueAddImageValidation.spec.ts
-        - EventsAdminChineseLanguageTest.spec.ts
-        - EventsAdminMexicanLanguageTest.spec.ts
-        - EventsPaginationTest.spec.ts
-        - AttributeMexicanLanguageTest.spec.ts
-        - HostOrgMexicanLanguageTest.spec.ts
-        - HostOrgnizationFilterSortTest.spec.ts
-        - VenueFilterSortTest.spec.ts
-        - VenueMexicanLanguageTest.spec.ts
-        - TestEventArchive.spec.ts
-        - TestEventClone.spec.ts
-        - TestEventsDealerAdminApproval.spec.ts
-        - EventsAdminOutsideUSATest.spec.ts
-        - EventsAdminSmokeTest.spec.ts
-
+        
 jobs:
   build:
     if: ${{ inputs.name == 'All' }}
