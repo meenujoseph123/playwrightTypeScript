@@ -278,3 +278,39 @@
 2025-04-02 12:34:23 - [32minfo[39m: SDK run ended for id: f539baf1-8b9c-4199-af7c-89f539f788a2, testhub id: p7po1dynik8ti0mztt02gnnwug1j2dfkhf2y1891
 2025-04-02 12:34:27 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
 2025-04-02 12:34:30 - [32minfo[39m: Local binary stopped
+2025-04-04 11:27:44 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-04-04 11:27:44 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-04-04 11:27:44 - [32minfo[39m: SDK run started with id: 5c5549c5-ed82-49d0-855a-141aca1ef37a
+2025-04-04 11:27:44 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-04 11:27:49 - [32minfo[39m: Local binary started successfully
+2025-04-04 11:27:52 - [32minfo[39m: Testhub started with id: lribnev1cofvmdido26rss9nkyd4hvqhqb7xptcj
+2025-04-04 11:28:27 - [32minfo[39m: Visit https://observability.browserstack.com/builds/lribnev1cofvmdido26rss9nkyd4hvqhqb7xptcj to view build report, insights, and many more debugging information all at one place!
+
+2025-04-04 11:28:27 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/dcf40d359054263d18475f56fa89849ea847ccae
+2025-04-04 11:28:28 - [32minfo[39m: SDK run ended for id: 5c5549c5-ed82-49d0-855a-141aca1ef37a, testhub id: lribnev1cofvmdido26rss9nkyd4hvqhqb7xptcj
+2025-04-04 11:28:30 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
+2025-04-04 11:28:33 - [32minfo[39m: Local binary stopped
+2025-04-04 11:43:30 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-04-04 11:43:30 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-04-04 11:43:30 - [32minfo[39m: SDK run started with id: 90daf3d5-1af0-4de8-ab4b-51ee6f7845b1
+2025-04-04 11:43:30 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-04 11:43:35 - [32minfo[39m: Local binary started successfully
+2025-04-04 11:43:37 - [32minfo[39m: Testhub started with id: lvbq9hinbzahbmhxwvu30zobd4z6y3pwhp1h5m7l
+2025-04-04 11:44:09 - [32minfo[39m: Visit https://observability.browserstack.com/builds/lvbq9hinbzahbmhxwvu30zobd4z6y3pwhp1h5m7l to view build report, insights, and many more debugging information all at one place!
+
+2025-04-04 11:44:10 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d3bccffb4a3c0a7fa058d0e376a2ddb343cdced9
+2025-04-04 11:44:11 - [32minfo[39m: SDK run ended for id: 90daf3d5-1af0-4de8-ab4b-51ee6f7845b1, testhub id: lvbq9hinbzahbmhxwvu30zobd4z6y3pwhp1h5m7l
+2025-04-04 11:44:13 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
+2025-04-04 11:44:16 - [32minfo[39m: Local binary stopped
+2025-04-08 11:07:20 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test --config=./playwright.config.ts
+2025-04-08 11:07:20 - [32minfo[39m: Reading configs from C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\browserstack.yml
+2025-04-08 11:07:20 - [32minfo[39m: SDK run started with id: 182f590d-b99a-41c0-8a87-c71268369526
+2025-04-08 11:07:21 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-04-08 11:07:27 - [32minfo[39m: Local binary started successfully
+2025-04-08 11:07:30 - [32minfo[39m: Testhub started with id: lqk7zzowu8clfp8cgaudvdfthjyncxkfu9yl4dtx
+2025-04-08 11:08:18 - [32minfo[39m: Visit https://observability.browserstack.com/builds/lqk7zzowu8clfp8cgaudvdfthjyncxkfu9yl4dtx to view build report, insights, and many more debugging information all at one place!
+
+2025-04-08 11:08:18 - [32minfo[39m: View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7a0665a3a8c3089a0a3f4976011344eec806b7d3
+2025-04-08 11:08:19 - [32minfo[39m: SDK run ended for id: 182f590d-b99a-41c0-8a87-c71268369526, testhub id: lqk7zzowu8clfp8cgaudvdfthjyncxkfu9yl4dtx
+2025-04-08 11:08:21 - [32minfo[39m: Deleting C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\playwright-browserstack-sdk.config.ts
+2025-04-08 11:08:27 - [32minfo[39m: Local binary stopped

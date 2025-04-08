@@ -1,7 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="example.spec.ts" timestamp="2025-04-03T04:39:23.182Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.343" errors="0">
-<testcase name="has title" classname="example.spec.ts" time="4.006" status:"passed">
-</testcase>
-<testcase name="get started link" classname="example.spec.ts" time="4.337" status:"failed">
-</testcase>
-</testsuite>
+<testsuites id="" name="" tests="6" failures="4" skipped="0" errors="0" time="28.210108">
+   <testsuite name="tests\example.spec.ts" timestamp="2025-04-04T05:57:57.986Z" hostname="chrome-120:Windows 10-browserstack" tests="2" failures="0" skipped="0" time="10.182" errors="0">
+       <testcase name="has title" classname="tests\example.spec.ts" time="4.71"></testcase>
+       <testcase name="get started link" classname="tests\example.spec.ts" time="5.472"></testcase>
+   </testsuite>
+   <testsuite name="tests\example.spec.ts" timestamp="2025-04-04T05:57:57.986Z" hostname="safari-15.6:OSX Monterey-browserstack" tests="2" failures="2" skipped="0" time="0.072" errors="0">
+       <testcase name="has title" classname="tests\example.spec.ts" time="0.036">
+           <failure message="example.spec.ts:3:5 has title" type="FAILURE">
+               <![CDATA[  [safari-15.6:OSX Monterey-browserstack] › tests\example.spec.ts:3:5 › has title ──────────────────
+
+    Error: browserType.connect: Error: Invalid 'browser'. Use 'chrome', 'edge', 'playwright-chromium', 'playwright-webkit' or 'playwright-firefox' only
+        at BrowserType._0x5a357f (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\mock-process.js:1:22010)
+]]>
+           </failure>
+       </testcase>
+       <testcase name="get started link" classname="tests\example.spec.ts" time="0.036">
+           <failure message="example.spec.ts:10:5 get started link" type="FAILURE">
+               <![CDATA[  [safari-15.6:OSX Monterey-browserstack] › tests\example.spec.ts:10:5 › get started link ──────────
+
+    Error: browserType.connect: Error: Invalid 'browser'. Use 'chrome', 'edge', 'playwright-chromium', 'playwright-webkit' or 'playwright-firefox' only
+        at BrowserType._0x5a357f (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\mock-process.js:1:22010)
+]]>
+           </failure>
+       </testcase>
+   </testsuite>
+   <testsuite name="tests\example.spec.ts" timestamp="2025-04-04T05:57:57.986Z" hostname="chromium-iPhone 13:15-browserstack-mobile" tests="2" failures="2" skipped="0" time="0.061" errors="0">
+       <testcase name="has title" classname="tests\example.spec.ts" time="0.033">
+           <failure message="example.spec.ts:3:5 has title" type="FAILURE">
+               <![CDATA[  [chromium-iPhone 13:15-browserstack-mobile] › tests\example.spec.ts:3:5 › has title ──────────────
+
+    Error: browserType.connect: Error: Error: OS is not supported.
+        at BrowserType._0x5a357f (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\mock-process.js:1:20661)
+]]>
+           </failure>
+       </testcase>
+       <testcase name="get started link" classname="tests\example.spec.ts" time="0.028">
+           <failure message="example.spec.ts:10:5 get started link" type="FAILURE">
+               <![CDATA[  [chromium-iPhone 13:15-browserstack-mobile] › tests\example.spec.ts:10:5 › get started link ──────
+
+    Error: browserType.connect: Error: Error: OS is not supported.
+        at BrowserType._0x5a357f (C:\Users\meenu.joseph\playwriteWorkspace\playwrightTypeScript\node_modules\browserstack-node-sdk\src\bin\playwright\mock-process.js:1:20661)
+]]>
+           </failure>
+       </testcase>
+   </testsuite>
+</testsuites>

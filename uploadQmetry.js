@@ -3,7 +3,7 @@ const axios = require('axios');
 
 // QMetry API Endpoint and Headers
 const qmetryAPIEndpoint = 'https://qtmcloud.qmetry.com/rest/api/automation/importresult';
-const qmetryApiKey = '92255fc662d8ef87bfbd390b1b4ca5526b83801a24396c5b68740a380ad190ac1a64ff92d409f7b89b56921f6cf92cce426410ed6a489517783e0308126902a8f5e735fbbfea8f4531b43882e084aa55';
+const qmetryApiKey = 'bff8b1afbf07e6728fb729fd3343960dee2635090f74e850bdf90611ce141c3b16a7f71914069a3b6c40da4f63bdcc0dddb27826b44e4d2c92b0c6a4676136763b17b2e6890a39aee8813e77abc7896e';
 const qmetryProjectId = '10000';
 // Read the generated JUnit XML results file
 const xmlFilePath = 'test-results.xml';

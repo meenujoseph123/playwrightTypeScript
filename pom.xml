@@ -1,68 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example</groupId>
-    <artifactId>playwright-qmetry-integration</artifactId>
-    <description>An example for webapp project with TypeScript</description>
-    <version>1.0-SNAPSHOT</version>
-    <dependencies>
-        <!-- Playwright dependency -->
-        <dependency>
-            <groupId>com.microsoft.playwright</groupId>
-            <artifactId>playwright</artifactId>
-            <version>1.18.0</version>
-        </dependency>
-       
-        <!-- TestNG for test execution and reporting -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.4.0</version>
-            <!-- Use the latest version -->
-            <scope>test</scope>
-        </dependency>
-        <!-- JSON parsing library for API responses (e.g., sending results to QMetry API) -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.12.3</version>
-        </dependency>
-        </dependencies>
-    <build>
-        <plugins>
-            <!-- Maven Surefire Plugin for running tests -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-            </plugin>
-            <plugin>
-                <groupId>com.qmetry</groupId>
-                <artifactId>automation</artifactId>
-                <version>2.0.12</version>
-                <executions>
-                    <execution>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>JUnitFileUpload</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>qmetrytestmanager-mvn-repo</id>
-            <name>QMetry Test Manager Maven Repository</name>
-            <url>https://raw.github.com/qmetry/qtm4j-maven-uploader/mvn-repo/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-        </pluginRepository>
-    </pluginRepositories>
-    </project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.example</groupId>
+	<artifactId>playwright-qmetry-integration</artifactId>
+	<description>An example for webapp project with TypeScript</description>
+	<version>1.0-SNAPSHOT</version>
+	<dependencies>
+		<!-- Playwright dependency -->
+		<dependency>
+			<groupId>com.microsoft.playwright</groupId>
+			<artifactId>playwright</artifactId>
+			<version>1.18.0</version>
+		</dependency>
+		<!-- TestNG for test execution and reporting -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.4.0</version>
+			<!-- Use the latest version -->
+			<scope>test</scope>
+		</dependency>
+		<!-- JSON parsing library for API responses (e.g., sending results to QMetry API) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.12.3</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<!-- Maven Surefire Plugin for running tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+			</plugin>
+			<plugin>
+				<groupId>com.qmetry</groupId>
+				<artifactId>automation</artifactId>
+				<version>2.0.12</version>
+				<executions>
+					<execution>
+						<phase>test</phase>
+						<goals>
+							<goal>JUnitFileUpload</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>qmetrytestmanager-mvn-repo</id>
+			<name>QMetry Test Manager Maven Repository</name>
+			<url>https://raw.github.com/qmetry/qtm4j-maven-uploader/mvn-repo/</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
+</project>
